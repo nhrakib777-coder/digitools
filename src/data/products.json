@@ -1,0 +1,68 @@
+[
+{
+"id":1,
+"name":"Resume Builder",
+"description":"Create professional resumes easily",
+"price":19,
+"period":"monthly",
+"tag":"Popular",
+"tagType":"badge-primary",
+"features":["100+ templates","ATS optimization","Export to PDF"],
+"icon":"📄"
+},
+{
+"id":2,
+"name":"Portfolio Builder",
+"description":"Create developer portfolio website",
+"price":29,
+"period":"yearly",
+"tag":"Best Seller",
+"tagType":"badge-success",
+"features":["Custom domain","SEO optimized","Hosting included"],
+"icon":"💼"
+},
+{
+"id":3,
+"name":"Cover Letter Generator",
+"description":"Generate cover letters instantly",
+"price":9,
+"period":"monthly",
+"tag":"New",
+"tagType":"badge-secondary",
+"features":["AI writing","Multiple formats","PDF export"],
+"icon":"✉️"
+},
+{
+"id":4,
+"name":"Job Tracker",
+"description":"Track your job applications",
+"price":15,
+"period":"monthly",
+"tag":"Popular",
+"tagType":"badge-primary",
+"features":["Application tracking","Status update","Reminder alerts"],
+"icon":"📊"
+},
+{
+"id":5,
+"name":"Interview Prep",
+"description":"Practice interviews online",
+"price":25,
+"period":"yearly",
+"tag":"Best Seller",
+"tagType":"badge-success",
+"features":["Mock interviews","Common questions","Expert tips"],
+"icon":"🎤"
+},
+{
+"id":6,
+"name":"LinkedIn Optimizer",
+"description":"Optimize your LinkedIn profile",
+"price":12,
+"period":"monthly",
+"tag":"New",
+"tagType":"badge-secondary",
+"features":["Profile analysis","SEO keywords","Profile score"],
+"icon":"🔗"
+}
+]
