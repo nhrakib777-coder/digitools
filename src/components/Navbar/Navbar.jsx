@@ -32,7 +32,6 @@ const Navbar = ({ cartCount, setTab }) => {
   <div className="flex justify-between gap-2 items-center">
     <div className="indicator">
        <button
-        // eslint-disable-next-line no-undef
         onClick={() => setTab("cart")}
         className="relative ml-auto"
       >
