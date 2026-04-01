@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 const ProductCard = ({ product, addToCart }) => {
-
+  const [added, setAdded] = useState(false);
   const { name, description, price, period, tag, tagType, features = [], icon } = product;
 
   const tagStyles = {
@@ -55,11 +55,19 @@ const ProductCard = ({ product, addToCart }) => {
 
         {/* Button */}
         <button
-          onClick={() => addToCart(product)}
-          className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full mt-4 w-full"
-        >
-          Buy Now
-        </button>
+  disabled={added}
+  onClick={() => {
+    addToCart(product);
+    setAdded(true);
+  }}
+  className={`btn rounded-full mt-4 w-full text-white ${
+    added
+      ? "bg-green-500 cursor-not-allowed"
+      : "bg-gradient-to-r from-[#4F39F6] to-[#9514FA]"
+  }`}
+>
+  {added ? "Added to Cart ✓" : "Buy Now"}
+</button>
 
       </div>
     </div>
