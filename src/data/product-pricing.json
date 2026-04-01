@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Starter",
+    "price": 0,
+    "period": "monthly",
+    "description": "Starter plan for individuals",
+    "features": ["10 templates", "ATS optimization", "PDF export"],
+    "button": "Get Started"
+  },
+  {
+    "id": 2,
+    "name": "Pro",
+    "price": 19,
+    "period": "monthly",
+    "description": "Best for professionals",
+    "features": ["50 templates", "ATS optimization", "PDF export", "AI suggestions"],
+    "button": "Start Free Trial"
+  },
+  {
+    "id": 3,
+    "name": "Enterprise",
+    "price": 49,
+    "period": "monthly",
+    "description": "For large teams",
+    "features": ["Unlimited templates", "Team collaboration", "Priority support"],
+    "button": "Contact Sales"
+  }
+]
