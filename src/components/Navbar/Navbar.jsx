@@ -5,13 +5,13 @@ import { IoIosMenu } from "react-icons/io";
 const Navbar = ({ cartCount, setTab }) => {
   return (
    <div className="shadow-sm fixed w-full bg-white z-50">
-     <div className="navbar bg-base-100 flex justify-between items-center  max-w-7xl mx-auto">
+     <div className="navbar bg-base-100 flex justify-between items-center  max-w-[1200px] mx-auto">
   <div className=" ">
     
     <a className="cursor-pointer text-2xl font-bold bg-gradient-to-r from-[#4F39F6]  to-[#9514FA] text-transparent bg-clip-text">DigiTools</a>
   </div>
   <div className="navbar-center ">
-    <button className="lg:hidden"><IoIosMenu size={22}/></button>
+    <button className="hidden"><IoIosMenu size={22}/></button>
     <ul className="menu menu-horizontal px-1 hidden lg:flex">
       <li>
         <a href="#">Products</a>
