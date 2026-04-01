@@ -9,6 +9,7 @@ import Cart from "./components/Cart/Cart";
 import Steps from "./components/Steps/Steps";
 import Pricing from "./components/Pricing/Price";
 import Footer from "./components/Footer/Footer";
+import "../src/index.css";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -42,24 +43,38 @@ function App() {
       <Banner/>
 
       <Stats/>
-
-      <div className="text-center my-10">
+      {/* products */}
+       <div className="products my-16 text-center space-y-6 ">
+      <h2 className="text-4xl font-bold">Premium Digital Tools</h2>
+      <p className="text-[#627382]">Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
+      <div className="text-center my-10 border-2 border-base-200 w-fit mx-auto rounded-full flex gap-2 justify-center items-center p-1">
 
         <button
-        className="btn btn-primary mr-4"
+        className={`btn px-7 rounded-full ${
+      tab === "products"
+        ? "bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white border-none"
+        : "btn-outline"
+    }`}
         onClick={()=>setTab("products")}
         >
           Products
         </button>
 
         <button
-        className="btn btn-outline"
+         className={`btn px-7 rounded-full ${
+      tab === "cart"
+        ? "bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white border-none"
+        : "btn-outline"
+    }`}
         onClick={()=>setTab("cart")}
         >
           Cart
+          <span className="badge badge-sm">{cart.length}</span>
         </button>
 
       </div>
+    </div>
+      
 
       <div className="max-w-6xl mx-auto px-4">
 

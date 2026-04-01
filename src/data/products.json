@@ -6,7 +6,7 @@
 "price":19,
 "period":"monthly",
 "tag":"Popular",
-"tagType":"badge-primary",
+"tagType":"popular",
 "features":["100+ templates","ATS optimization","Export to PDF"],
 "icon":"📄"
 },
@@ -17,7 +17,7 @@
 "price":29,
 "period":"yearly",
 "tag":"Best Seller",
-"tagType":"badge-success",
+"tagType":"best seller",
 "features":["Custom domain","SEO optimized","Hosting included"],
 "icon":"💼"
 },
@@ -28,7 +28,7 @@
 "price":9,
 "period":"monthly",
 "tag":"New",
-"tagType":"badge-secondary",
+"tagType":"new",
 "features":["AI writing","Multiple formats","PDF export"],
 "icon":"✉️"
 },
@@ -39,7 +39,7 @@
 "price":15,
 "period":"monthly",
 "tag":"Popular",
-"tagType":"badge-primary",
+"tagType":"popular",
 "features":["Application tracking","Status update","Reminder alerts"],
 "icon":"📊"
 },
@@ -50,7 +50,7 @@
 "price":25,
 "period":"yearly",
 "tag":"Best Seller",
-"tagType":"badge-success",
+"tagType":"best seller",
 "features":["Mock interviews","Common questions","Expert tips"],
 "icon":"🎤"
 },
@@ -61,7 +61,7 @@
 "price":12,
 "period":"monthly",
 "tag":"New",
-"tagType":"badge-secondary",
+"tagType":"new",
 "features":["Profile analysis","SEO keywords","Profile score"],
 "icon":"🔗"
 }

@@ -3,10 +3,11 @@ import { IoIosMenu } from "react-icons/io";
 
 const Navbar = ({ cartCount }) => {
   return (
-    <div className="navbar bg-base-100 flex justify-between shadow-sm max-w-[1200px] mx-auto">
-  <div className="">
+   <div className="shadow-sm">
+     <div className="navbar bg-base-100 flex justify-between items-center  max-w-7xl mx-auto">
+  <div className=" ">
     
-    <a className="btn btn-ghost text-2xl font-bold bg-gradient-to-r from-[#4F39F6]  to-[#9514FA] text-transparent bg-clip-text">DigiTools</a>
+    <a className="cursor-pointer text-2xl font-bold bg-gradient-to-r from-[#4F39F6]  to-[#9514FA] text-transparent bg-clip-text">DigiTools</a>
   </div>
   <div className="navbar-center ">
     <button className="lg:hidden"><IoIosMenu size={22}/></button>
@@ -28,9 +29,9 @@ const Navbar = ({ cartCount }) => {
       </li>
     </ul>
   </div>
-  <div className="flex justify-between gap-5 items-center">
+  <div className="flex justify-between gap-2 items-center">
     <div className="indicator">
-        <span className="indicator-item badge bg-transparent text-gray-700 border-gray-700">
+        <span className="indicator-item badge bg-transparent text-gray-700 border-gray-700 cursor-pointer">
           {cartCount}
         </span>
         <CiShoppingCart size={22}/>
@@ -41,6 +42,7 @@ const Navbar = ({ cartCount }) => {
   </div>
   </div>
 </div>
+   </div>
   );
 };
 
