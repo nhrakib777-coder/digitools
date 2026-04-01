@@ -23,12 +23,12 @@ const ProductCard = ({ product, addToCart }) => {
         )}
 
         {/* Icon + Title */}
-        <div className="flex items-center gap-3">
+        <div className="flex flex-col items-start gap-3">
           <span className="text-2xl border rounded-full w-10 h-10 flex items-center justify-center">
             {icon}
           </span>
 
-          <h2 className="card-title text-xl md:text-2xl font-bold text-[#101727]">
+          <h2 className="card-title text-xl md:text-xl font-bold text-[#101727]">
             {name}
           </h2>
         </div>
