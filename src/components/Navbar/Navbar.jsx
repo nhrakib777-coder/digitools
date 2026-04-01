@@ -72,11 +72,11 @@ const Navbar = ({ cartCount, setTab }) => {
             <li><a href="#">Testimonials</a></li>
             <li><a href="#">FAQ</a></li>
 
-            <button className="btn bg-transparent shadow-none">
+            <button className="btn bg-transparent shadow-none md:hidden">
               Login
             </button>
 
-            <button className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white">
+            <button className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full px-4 md:hidden">
               Get Started
             </button>
           </ul>
