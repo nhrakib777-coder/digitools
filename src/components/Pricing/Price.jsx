@@ -22,7 +22,7 @@ const Pricing = () => {
               className={`relative card shadow-lg cursor-pointer transition-all duration-300 hover:-translate-y-1
               
               ${isActive
-                ? "bg-purple-500 text-white"
+                ? "bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white"
                 : "bg-base-200 text-gray-700"
               }`}
             >
