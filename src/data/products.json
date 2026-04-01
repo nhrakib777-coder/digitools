@@ -1,68 +1,134 @@
 [
-{
-"id":1,
-"name":"Resume Builder",
-"description":"Create professional resumes easily",
-"price":19,
-"period":"monthly",
-"tag":"Popular",
-"tagType":"popular",
-"features":["100+ templates","ATS optimization","Export to PDF"],
-"icon":"📄"
-},
-{
-"id":2,
-"name":"Portfolio Builder",
-"description":"Create developer portfolio website",
-"price":29,
-"period":"yearly",
-"tag":"Best Seller",
-"tagType":"best seller",
-"features":["Custom domain","SEO optimized","Hosting included"],
-"icon":"💼"
-},
-{
-"id":3,
-"name":"Cover Letter Generator",
-"description":"Generate cover letters instantly",
-"price":9,
-"period":"monthly",
-"tag":"New",
-"tagType":"new",
-"features":["AI writing","Multiple formats","PDF export"],
-"icon":"✉️"
-},
-{
-"id":4,
-"name":"Job Tracker",
-"description":"Track your job applications",
-"price":15,
-"period":"monthly",
-"tag":"Popular",
-"tagType":"popular",
-"features":["Application tracking","Status update","Reminder alerts"],
-"icon":"📊"
-},
-{
-"id":5,
-"name":"Interview Prep",
-"description":"Practice interviews online",
-"price":25,
-"period":"yearly",
-"tag":"Best Seller",
-"tagType":"best seller",
-"features":["Mock interviews","Common questions","Expert tips"],
-"icon":"🎤"
-},
-{
-"id":6,
-"name":"LinkedIn Optimizer",
-"description":"Optimize your LinkedIn profile",
-"price":12,
-"period":"monthly",
-"tag":"New",
-"tagType":"new",
-"features":["Profile analysis","SEO keywords","Profile score"],
-"icon":"🔗"
-}
+  {
+    "id": 1,
+    "name": "Resume Builder",
+    "description": "Create professional resumes easily",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Builder",
+    "description": "Create developer portfolio website",
+    "price": 29,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Custom domain", "SEO optimized", "Hosting included"],
+    "icon": "💼"
+  },
+  {
+    "id": 3,
+    "name": "Cover Letter Generator",
+    "description": "Generate cover letters instantly",
+    "price": 9,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["AI writing", "Multiple formats", "PDF export"],
+    "icon": "✉️"
+  },
+  {
+    "id": 4,
+    "name": "Job Tracker",
+    "description": "Track your job applications",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Application tracking", "Status update", "Reminder alerts"],
+    "icon": "📊"
+  },
+  {
+    "id": 5,
+    "name": "Interview Prep",
+    "description": "Practice interviews online",
+    "price": 25,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Mock interviews", "Common questions", "Expert tips"],
+    "icon": "🎤"
+  },
+  {
+    "id": 6,
+    "name": "LinkedIn Optimizer",
+    "description": "Optimize your LinkedIn profile",
+    "price": 12,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Profile analysis", "SEO keywords", "Profile score"],
+    "icon": "🔗"
+  },
+  {
+    "id": 7,
+    "name": "Email Campaign Manager",
+    "description": "Automate email marketing campaigns",
+    "price": 35,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Template library", "Analytics dashboard", "Auto follow-ups"],
+    "icon": "📧"
+  },
+  {
+    "id": 8,
+    "name": "Social Media Scheduler",
+    "description": "Schedule posts across platforms",
+    "price": 20,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Multi-platform support", "Analytics", "Auto-post"],
+    "icon": "📱"
+  },
+  {
+    "id": 9,
+    "name": "AI Writing Assistant",
+    "description": "Write faster with AI-powered suggestions",
+    "price": 18,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Grammar check", "Content generation", "Tone suggestions"],
+    "icon": "🤖"
+  },
+  {
+    "id": 10,
+    "name": "Task Manager",
+    "description": "Organize your daily tasks efficiently",
+    "price": 10,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Task lists", "Reminders", "Collaboration"],
+    "icon": "✅"
+  },
+  {
+    "id": 11,
+    "name": "Time Tracker",
+    "description": "Track your work hours effortlessly",
+    "price": 12,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Automatic tracking", "Reports", "Integrations"],
+    "icon": "⏱️"
+  },
+  {
+    "id": 12,
+    "name": "Invoice Generator",
+    "description": "Create and send invoices quickly",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Custom templates", "PDF export", "Payment tracking"],
+    "icon": "💰"
+  }
 ]
