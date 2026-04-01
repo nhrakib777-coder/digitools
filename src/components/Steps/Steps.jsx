@@ -1,44 +1,74 @@
-import React from "react"
+import React from "react";
 import person from "../../assets/user.png";
 import box from "../../assets/package.png";
 import rocket from "../../assets/rocket.png";
+
+const stepsData = [
+  {
+    id: "01",
+    title: "Create Account",
+    text: "Sign up for free in seconds. No credit card required to get started.",
+    img: person
+  },
+  {
+    id: "02",
+    title: "Choose Products",
+    text: "Browse our catalog and select the tools that fit your needs.",
+    img: box
+  },
+  {
+    id: "03",
+    title: "Start Creating",
+    text: "Download and start using your premium tools immediately.",
+    img: rocket
+  }
+];
+
 function Steps() {
   return (
-    
-    <div className="grid grid-cols-1 md:grid-cols-3  max-w-[1200px] justify-center gap-[30px] items-center mx-auto my-12 px-4">
+    <section className="max-w-6xl mx-auto px-4 py-16">
 
-      <div className="card bg-white shadow-md max-h-[400px] max-w-[250px] lg:max-w-[300px] mx-auto space-y-3">
-        <div className="relative">
-          <span className="absolute top-3 right-3 badge bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full text-right p-1 text-[14px]">01</span>
-        </div>
-        <div className="card-body text-center  ">
-          <img className="w-16 h-16 mx-auto bg-[#E1E7FF] rounded-full p-2" src={person} alt="Person" />
-          <h1 className="text-[#101727] text-[24px] font-bold">Create Account</h1>
-          <p className="text-[14px] text-[#627382]">Sign up for free in seconds. No credit card required to get started.</p>
-        </div>
-      </div>
-      <div className="card bg-white shadow-md max-h-[400px] max-w-[250px] lg:max-w-[300px] mx-auto space-y-3">
-        <div className="relative">
-          <span className="absolute top-3 right-3 badge bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full text-right p-1 text-[14px]">02</span>
-        </div>
-        <div className="card-body text-center  ">
-          <img className="w-16 h-16 mx-auto bg-[#E1E7FF] rounded-full p-2" src={box} alt="box" />
-          <h1 className="text-[#101727] text-[24px] font-bold">Choose Products</h1>
-          <p className="text-[14px] text-[#627382]">Browse our catalog and select the toolsthat fit your needs.</p>
-        </div>
-      </div>
-      <div className="card bg-white shadow-md max-h-[400px] max-w-[250px] lg:max-w-[300px] mx-auto space-y-3">
-        <div className="relative">
-          <span className="absolute top-3 right-3 badge bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full text-right p-1 text-[14px]">03</span>
-        </div>
-        <div className="card-body text-center  ">
-          <img className="w-16 h-16 mx-auto bg-[#E1E7FF] rounded-full p-2" src={rocket} alt="rocket" />
-          <h1 className="text-[#101727] text-[24px] font-bold">Start Creating</h1>
-          <p className="text-[14px] text-[#627382]">Download and start using your premium tools immediately.</p>
-        </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        {stepsData.map((step) => (
+          <div
+            key={step.id}
+            className="card bg-white shadow-md hover:shadow-xl transition-all duration-300"
+          >
+
+            {/* Badge */}
+            <div className="relative">
+              <span className="absolute top-4 right-4 badge bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full text-sm px-2">
+                {step.id}
+              </span>
+            </div>
+
+            <div className="card-body text-center space-y-3">
+
+              {/* Icon */}
+              <img
+                className="w-16 h-16 mx-auto bg-[#E1E7FF] rounded-full p-3"
+                src={step.img}
+                alt={step.title}
+              />
+
+              {/* Title */}
+              <h2 className="text-[#101727] text-xl font-bold">
+                {step.title}
+              </h2>
+
+              {/* Description */}
+              <p className="text-sm text-[#627382]">
+                {step.text}
+              </p>
+
+            </div>
+          </div>
+        ))}
+
       </div>
 
-    </div>
+    </section>
   );
 }
 

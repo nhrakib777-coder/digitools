@@ -48,18 +48,18 @@ function App() {
 
   return (
 
-    <div className="App bg-[#F9FAFB] min-h-screen relative">
+    <div className="App  bg-[#F9FAFB] min-h-screen relative pt-20">
 
-      <Navbar className="fixed" cartCount={cart.length} setTab={setTab} />
+      <Navbar  cartCount={cart.length} setTab={setTab} />
 
-      <Banner />
+      <Banner  />
 
       <Stats />
       {/* products */}
       <div className="products my-16 text-center space-y-6 ">
         <h2 className="text-4xl font-bold">Premium Digital Tools</h2>
         <p className="text-[#627382]">Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
-        <div className="text-center my-10 border-2 border-base-200 w-fit mx-auto rounded-full flex gap-2 justify-center items-center p-1">
+        <div className="text-center my-10 bg-base-300 border-2 border-base-200 w-fit mx-auto rounded-full flex gap-2 justify-center items-center p-1">
 
           <button
             className={`btn px-7 rounded-full ${tab === "products"
