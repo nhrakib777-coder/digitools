@@ -1,3 +1,4 @@
+import React from "react"
 import BannerImage from "../../assets/banner.png";
 import badgeImg from "../../assets/badge.png";
 import { CiPlay1 } from "react-icons/ci";

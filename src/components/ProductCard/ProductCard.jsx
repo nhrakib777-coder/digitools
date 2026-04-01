@@ -1,3 +1,4 @@
+import React from "react"
 const ProductCard = ({ product, addToCart }) => {
 
   const { name, description, price, period, tag, tagType, features, icon } = product;

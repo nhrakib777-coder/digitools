@@ -1,3 +1,4 @@
+import React from "react"
 import { CiShoppingCart } from "react-icons/ci";
 
 const Cart = ({ cart, removeFromCart, checkout }) => {

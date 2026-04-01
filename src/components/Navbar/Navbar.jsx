@@ -1,3 +1,4 @@
+import React from "react"
 import { CiShoppingCart } from "react-icons/ci";
 import { IoIosMenu } from "react-icons/io";
 

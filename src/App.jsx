@@ -1,3 +1,4 @@
+import React from "react"
 import { useState } from "react";
 import "./App.css";
 import productsData from "./data/products.json";
@@ -8,6 +9,7 @@ import Products from "./components/Products/Products";
 import Cart from "./components/Cart/Cart";
 import Steps from "./components/Steps/Steps";
 import Pricing from "./components/Pricing/Price";
+import Explore from "./components/Explore/Explore";
 import Footer from "./components/Footer/Footer";
 import "../src/index.css";
 
@@ -111,6 +113,8 @@ function App() {
         <p className="text-[#627382] text-[16px]" >Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
       </div>
       <Pricing />
+
+       <Explore />
 
       <Footer />
 

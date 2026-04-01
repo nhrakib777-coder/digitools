@@ -1,3 +1,4 @@
+import React from "react"
 import { useState } from "react";
 import pricingData from "../../data/product-pricing.json";
 
@@ -6,7 +7,7 @@ const Pricing = () => {
   const [activePlan, setActivePlan] = useState(pricingData[1]?.id || null);
 
   return (
-    <div className="max-w-[1200px] grid md:grid-cols-3 gap-2 my-20 mx-auto ">
+    <div className="max-w-[1200px] grid md:grid-cols-3 gap-4 my-20 mx-auto ">
       {pricingData.map((plan, index) => {
         const isActive = activePlan === plan.id;
         const isMiddle = index === 1; // middle card
@@ -21,7 +22,7 @@ const Pricing = () => {
           >
             {/* Badge on top middle */}
             {isMiddle && (
-              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 px-4 py-1 bg-yellow-400 text-white font-bold rounded-full text-sm shadow-lg">
+              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 px-4 py-1 bg-[#FEF3C6] text-[#BB4D00] font-bold rounded-full text-sm shadow-lg">
                 Popular
               </div>
             )}
