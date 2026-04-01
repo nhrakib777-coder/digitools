@@ -20,9 +20,19 @@ function App() {
   const [tab,setTab] = useState("products")
 
   const addToCart = (product)=>{
+
+    const exists = cart.find(item=>item.id === product.id)
+
+    if(exists){
+      toast.error("Already in cart")
+      return
+    }
+
     setCart([...cart,product])
     toast.success("Added to cart")
   }
+  
+  
 
   const removeFromCart = (id)=>{
     setCart(cart.filter(item=>item.id !== id))
@@ -36,9 +46,9 @@ function App() {
 
   return (
 
-    <div>
+    <div className="App bg-[#F9FAFB] min-h-screen relative">
 
-      <Navbar cartCount={cart.length}/>
+      <Navbar className="fixed" cartCount={cart.length} setTab={setTab}/>
 
       <Banner/>
 
