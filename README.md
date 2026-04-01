@@ -1,16 +1,40 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# DigiTools-Platform
+DigiTools-Platform is a **React-based web application** designed to showcase digital tools, services, and products. It includes features like dynamic pricing cards, a responsive navbar, shopping cart, explore section, and interactive steps guide. The platform is built with **React**, **Tailwind CSS**, and modern web development best practices.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
+- Cross platform
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Responsive Navbar**: Fixed on top when scrolling, supports navigation and dynamic cart count.  
+- **Pricing Cards**: Display different plans with features, gradient buttons, and active highlights.  
+- **Shopping Cart**: Add/remove products and display total cart count.  
+- **Explore Section**: Highlight tools and products for users.  
+- **Interactive Steps**: Guide users through onboarding or tutorials.  
+- **Gradient Icons & Buttons**: Modern UI with gradient effects for icons and call-to-action buttons.  
+
+## Tech Stack
+
+**Client:** React, Redux, TailwindCSS
+
+## Tech Stack
+
+- **Frontend**: React.js  
+- **Styling**: Tailwind CSS  
+- **Icons**: React Icons (`CiPlay1`, etc.)  
+- **State Management**: React useState and props  
+- **Package Management**: npm 
+## Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/DigiTools-Platform.git
+cd DigiTools-Platform
